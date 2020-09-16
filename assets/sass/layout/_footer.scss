@@ -9,13 +9,18 @@
 	#footer {
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
+		@include vendor('justify-content', 'center');
 		@include padding(5em, 5em);
 		width: calc(100% + #{_size(element-margin)});
 		margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin) * -1);
 
-		> * {
-			width: calc(50% - #{_size(element-margin)});
-			margin-left: _size(element-margin);
+		// > * {
+		// 	width: calc(50% - #{_size(element-margin)});
+		// 	margin-left: _size(element-margin);
+		// }
+
+		h2 {
+			text-align: center;
 		}
 
 		.copyright {
@@ -41,9 +46,9 @@
 				margin-bottom: (_size(element-margin) * 1.5);
 			}
 
-			.copyright {
-				text-align: left;
-			}
+			// .copyright {
+			// 	text-align: left;
+			// }
 		}
 
 		@include breakpoint('<=small') {
