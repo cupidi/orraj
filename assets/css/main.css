@@ -95,10 +95,10 @@ html {
 
 body {
   background-color: #935d8c;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #F6C24A 15%, #578505 85%);
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #F6C24A 15%, #578505 85%);
-  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #F6C24A 15%, #578505 85%);
-  background-image: url("images/overlay.png"), linear-gradient(45deg, #F6C24A 15%, #578505 85%);
+  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #90bd3c 15%, #578505 85%);
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #90bd3c 15%, #578505 85%);
+  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #90bd3c 15%, #578505 85%);
+  background-image: url("images/overlay.png"), linear-gradient(45deg, #90bd3c 15%, #578505 85%);
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -2299,6 +2299,9 @@ table.alt tbody tr td {
   margin-left: 2em;
   margin-top: 3em;
   padding: 0;
+  border: 1px solid #474747;
+  border-radius: 10px;
+  padding: 15px;
 }
 .features > li:nth-child(1), .features > li:nth-child(2), .features > li:nth-child(3) {
   margin-top: 0;

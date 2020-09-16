@@ -20,6 +20,9 @@
 			margin-left: _size(element-margin);
 			margin-top: (_size(element-margin) * 1.5);
 			padding: 0;
+			border: 1px solid _palette(border-section);
+			border-radius: 10px;
+			padding: 15px;
 
 			&:nth-child(1),
 			&:nth-child(2),

@@ -41,6 +41,8 @@
 				margin: 0 0.35em;
 				padding: 0;
 				vertical-align: middle;
+				// border: 1px solid _palette(border-section);
+				// border-radius: 10px;
 
 				a {
 					@include vendor('transition', (
